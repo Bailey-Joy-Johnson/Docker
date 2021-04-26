@@ -1,0 +1,15 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>test</title>
+    </head>
+    <body>
+        <!-- use {{}} to access the render_template vars-->
+	{% for item in data %}
+	<tr>
+    		<td>{{item[0]}}</td>
+    		<td>{{item[1]}}</td>
+	</tr>
+	{% endfor %}
+    </body>
+</html>
